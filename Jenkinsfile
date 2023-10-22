@@ -1,4 +1,4 @@
-@Library('shared-library') _
+@Library('shared-library@hello') _
 def hello = new Hello()
 node {
 	hello.call()

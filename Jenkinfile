@@ -1,4 +1,4 @@
-@Library('shared-library') _
+@Library('mukulmj') _
 def clean = new CleanWorkspace()
 def clone = new CloneRepo(branch, credentialsId, url)
 def codecompile = new CodeCompile()
